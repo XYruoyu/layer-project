@@ -12,6 +12,11 @@ window.onload = function () {
 			,anim: 'updown' //切换动画方式
 			,indicator:'none'
 		});
+		carousel.render({
+			elem: '#banner-goods'
+			,width: '600px' //设置容器宽度
+			,height:'280px'//设置容器高度
+		});
 	});
 	layer.msg('您好！ 欢迎光临景悦地产');
 
