@@ -1,0 +1,123 @@
+.header{
+		background: #161616 url(../imgs/bg-header.jpg) no-repeat;
+		background-position: center 0;
+		width: 100%;
+		height: 610px;
+		display: block;
+		position: relative;
+}
+.header-nav-wraper{
+
+}
+.wrapper{
+		width: 1150px;
+		margin: 0 auto;
+		/*order: 1px solid red;*/
+		position: relative;
+}
+.logoWraper{
+		display: inline-block;
+		background: url(../imgs/log.png) no-repeat;
+		background-position: 0 center;
+		background-size: 40px;
+		height: 60px;
+		color: #ffffff;
+		font-size: 30px;
+		padding-left: 45px;
+		position: absolute;
+		left: 30px;
+		line-height: 60px;
+
+}
+.layui-nav-mine{
+		width: 1150px;
+		margin: 0 auto;
+		text-align: right;
+		background-color: transparent !important;
+}
+.layui-nav-mine.layui-nav *{
+		font-size: 16px;
+		font-weight: bold;
+}
+.layui-nav-bar,.layui-this:after{
+		background-color: #ffffff!important;
+}
+.header-wrap{
+	margin-top: 120px;
+}
+.header-title{
+		font-size: 50px;
+		color: #ffffff;
+		font-weight: bold;
+		text-align: center;
+
+}
+.header-des{
+		font-size: 20px;
+		color: #ffffff;
+		text-align: center;
+		line-height: 30px;
+		height: 30px;
+}
+.header-wrap .layui-carousel{
+		background-color: transparent;
+		margin: 15px auto;
+}
+.layui-carousel>[carousel-item]>*{
+		background-color: transparent;
+}
+.header-wrap .layui-carousel>[carousel-item]:before{
+		content:"";
+}
+.layui-form-item{
+		text-align: center;
+		font-size: 0;
+		vertical-align: top;
+}
+.header-wrap .layui-input{
+		width: 640px;
+		height: 55px;
+		display: inline-block;
+		font-size: 18px;
+		vertical-align: top;
+		border-radius: 4px 0 0 4px;
+}
+.header-wrap .layui-btn-warm{
+		height: 55px;
+		border: none;
+		font-size: 18px;
+		color: #ffffff;
+		border-radius: 0 4px 4px 0;
+}
+.home-nav {
+		width: 1150px;
+		margin: 0 auto;
+		padding-top: 45px;
+		padding-bottom: 50px;
+		text-align: center;
+}
+.count-2 li{
+		width: 50%;
+		float: left;
+}
+.home-nav li img{
+		width: 50px;
+		margin: 0 auto 17px auto;
+		display: block;
+		vertical-align: middle;
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-moz-osx-font-smoothing: grayscale;
+		transition: all .5s;
+		-webkit-transition: all .5s; /* Safari */
+}
+.home-nav li img:hover{
+		cursor: pointer;
+		transform: scale(1.3);
+		-ms-transform:scale(1.3);     /* IE 9 */
+		-moz-transform:scale(1.3);     /* Firefox */
+		-webkit-transform:scale(1.3); /* Safari 和 Chrome */
+		-o-transform:scale(1.3);
+}

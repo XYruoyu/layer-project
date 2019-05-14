@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>景悦地产</title>
+	<link href="./css/reset.css" rel="stylesheet">
+	<link href="./layui/css/layui.css" rel="stylesheet">
+	<link href="./css/index.css" rel="stylesheet">
+	<body>
+		<header class="header">
+			<div class="wrapper clearfix">
+				<div class="logoWraper">
+					景悦地产
+				</div>
+				<ul class="layui-nav layui-nav-mine">
+					<li class="layui-nav-item layui-this"><a href="">首页</a></li>
+					<li class="layui-nav-item"><a href="">新房</a></li>
+					<li class="layui-nav-item"><a href="">二手房</a></li>
+					<li class="layui-nav-item"><a href="">租房</a></li>
+					<li class="layui-nav-item"><a href="">房价</a></li>
+					<li class="layui-nav-item">
+						<a href="javascript:;">关于我们</a>
+						<dl class="layui-nav-child">
+							<dd><a href="">模块1</a></dd>
+							<dd><a href="">模块2</a></dd>
+							<dd><a href="">模块3</a></dd>
+
+						</dl>
+					</li>
+				</ul>
+				<div class="header-wrap">
+					<div class="header-title">景色怡人，赏心悦目</div>
+					<div class="layui-carousel" id="banner-text" lay-filter="test4">
+						<div carousel-item="">
+							<div class="header-des">景悦地产,全国在售新房226688套</div>
+							<div class="header-des">景悦地产,全国累计销量688888套</div>
+							<div class="header-des">景悦地产,全国在售楼盘888个</div>
+
+						</div>
+					</div>
+					<div class="layui-form-item">
+							<input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入小区名称、地址..." class="layui-input">
+							<button class="layui-btn layui-btn-primary layui-btn-warm">开始搜索</button>
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="home-nav">
+			<ul class="count-2">
+				<li class="hvr-bob">
+					<a href="/ditu/">
+						<img class="layui-anim" src="./imgs/dingwei.png">
+						<b>地图找房</b><p>为您精准定位，位置周边配套设施一览无余</p>
+					</a>
+				</li>
+				<li class="hvr-bob">
+					<a href="yezhu/gujia/">
+						<img class="layui-anim" src="./imgs/jisuan.png">
+						<b>房屋估价</b><p>基于海量成交数据，帮您合理定价预估市值</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+
+
+
+
+	<script src="./layui/layui.all.js"></script>
+	<script src="./js/index.js"></script>
+	</body>
+</html>
