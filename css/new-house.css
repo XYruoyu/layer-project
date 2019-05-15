@@ -1,3 +1,156 @@
 /*
 *新房页css
 */
+.house-conntent{
+		margin: 20px auto;
+		background: #f5f8fa;
+}
+.theme_list{
+		width: 1150px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+}
+.theme_list li {
+		/*float: left;*/
+		display: inline-block;
+		margin-right: 20px;
+		width: 280px;
+		height: 170px;
+		overflow: hidden;
+		position: relative;
+}
+.theme_link {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		position: relative;
+		display: inline-block;
+		cursor:pointer;
+}
+
+.theme_list .theme_link{
+		-webkit-transition: -webkit-transform 1s;
+		-moz-transition: -moz-transform 1s;
+		transition: transform 1s;
+}
+.theme_list .theme_link:hover{
+		transform: scale(1.1);
+}
+.theme_list li img{
+		width: 100%;
+		height: 100%;
+}
+.theme_link_txt {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 280px;
+		height: 170px;
+		line-height: 180px;
+		text-align: center;
+		font-size: 24px;
+		color: #ffffff;
+		background: rgba(0, 0, 0,0.3);
+}
+
+.hotHouse_title {
+		width: 190px;
+		margin: 0 auto;
+		padding: 70px 0 50px 0;
+}
+
+
+.hotHouse_title .hotHouse_title_theme {
+		display: block;
+		height: 30px;
+		line-height: 30px;
+		padding-left: 18px;
+		border-left: 6px solid #1c8fff;
+		font-size: 34px;
+		margin-bottom: 18px;
+		font-weight: inherit;
+}
+.hotHouse_title_span {
+		font-size: 16px;
+		padding-left: 10px;
+}
+.hotHouse_list {
+		display: flex;
+		width: 1150px;
+		justify-content: start;
+		flex-wrap: wrap;
+}
+.hotHouse_list li {
+		position: relative;
+		width: 267px;
+		height: 290px;
+		overflow: hidden;
+		margin-bottom: 40px;
+		margin-right: 20px;
+		display: inline-block;
+		float: left;
+}
+.hotHouse_listImg {
+		display: block;
+		width: 280px;
+		height: 210px;
+		overflow: hidden;
+}
+.hotHouse_list li img {
+		-webkit-transition: -webkit-transform 1s;
+		-moz-transition: -moz-transform 1s;
+		transition: transform 1s;
+}
+.hotHouse_list li img:hover{
+		transform: scale(1.1);
+}
+.hotHouse_listImg img {
+		display: block;
+		width: 280px;
+		height: 210px;
+}
+.hotHouse_listName {
+		font-size: 14px;
+		display: inline-block;
+		width: 100%;
+		margin-top: 14px;
+}
+.hotHouse_listName a {
+		color: #1a1a1a;
+		/* border-left: 4px solid #0aa3e9; */
+		/* text-indent: 10px; */
+		display: inline-block;
+		width: 170px;
+		overflow: hidden;
+		height: 20px;
+		line-height: 20px;
+		font-size: 18px;
+}
+.fr {
+		float: right;
+		display: inline;
+}
+.color888 {
+		color: #888888;
+}
+.hotHouse_listPrice {
+		margin-top: 7px;
+}
+.hotHouse_listPrice .address {
+		display: inline-block;
+		width: 60%;
+		overflow: hidden;
+		line-height: 30px;
+}
+.colorRed {
+		color: #e74057;
+		font-size: 18px;
+}
+.btn-more{
+		display: block;
+		width: 180px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+}

@@ -20,4 +20,4 @@ window.onload = function () {
 	});
 	layer.msg('您好！ 欢迎光临景悦地产');
 
-}
+};
