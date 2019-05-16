@@ -1,0 +1,71 @@
+.age-li{
+		display: flex;
+		justify-content: space-between;
+		padding: 25px;
+		border-bottom: 1px solid #e1e1e1;
+}
+.age-li:hover{
+		background: url("../imgs/s-truth-bg.png");
+}
+
+age-left{
+		width: 120px;
+}
+.age-left img{
+		width: 120px;
+		height: 160px;
+}
+.age-mid{
+		width: 450px;
+		height: auto;
+		padding-top: 25px;
+}
+.age-mid span{
+		line-height: 35px;
+}
+
+.li-name{
+		font-size: 22px;
+		font-weight: bold;
+		vertical-align: top;
+}
+.li-duty{
+		background: #f1f1f1;
+		padding: 4px;
+		color: #888888;
+		margin-left: 5px;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		-ms-border-radius: 2px;
+		-o-border-radius: 2px;
+		border-radius: 2px;
+		font-size: 14px;
+}
+.li-bankuai{
+		color: #999999;
+		font-weight: 400;
+}
+.li-address{
+		color:#555;
+}
+.li-score{
+		color: #e4393c;
+}
+.li-score i{
+		font-size: 28px;
+		font-weight: 700;
+		margin-left: 4px;
+		letter-spacing: -1px;
+}
+.li-call{
+		color:#FFB800;
+}
+.li-call i{
+		font-size: 28px;
+		font-weight: 700;
+		margin-left: 4px;
+		letter-spacing: -1px;
+}
+.age-right{
+		padding-top: 35px;
+}
